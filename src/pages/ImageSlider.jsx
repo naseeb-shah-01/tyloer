@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 
 const ImageSlider = () => {
   const images = [
-    "./pexels-cottonbro-3738075.jpg",
-    "./pexels-cottonbro-4620610.jpg",
-    "./pexels-cottonbro-4622423.jpg",
-    "./pexels-cottonbro-3738087.jpg"
+    "https://vastra-vibes-client.vercel.app/pexels-cottonbro-3738087.jpg",
+    "https://vastra-vibes-client.vercel.app/pexels-cottonbro-4622423.jpg",
+    "https://vastra-vibes-client.vercel.app/pexels-cottonbro-3738075.jpg",
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
